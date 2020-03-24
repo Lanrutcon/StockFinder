@@ -1,2 +1,2 @@
 # StockFinder
- Browser extension that adds a shortcut to context menu to go to MarketWatch's stock page
+ Browser extension that adds a shortcut to quickly go to stock's info page

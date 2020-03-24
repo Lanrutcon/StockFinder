@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "StockFinder",
+	"version": "1.0.0",
+	"description": "Adds a shortcut to quickly go to stock's info page",
+    "permissions": ["contextMenus", "storage"],
+	"icons": {
+		"48": "icons/icon.png"
+	},
+	"browser_action": {
+		"browser_style": true,
+		"default_popup": "option_page.html",
+		"default_icon": {
+			"16": "icons/icon.png",
+			"32": "icons/icon.png"
+		}
+	},
+	"background": {
+		"scripts": ["background.js"]
+	}
+}
