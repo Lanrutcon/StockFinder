@@ -17,8 +17,9 @@ document.addEventListener("click", function(e) {
 
 window.addEventListener("load", function() {
 	browser.storage.local.get("chosenSite", function(result) {
-		if(result != undefined && result.chosenSite != undefined) {
+		if(result != undefined && result.chosenSite != undefined)
 			document.getElementsByClassName("websiteStock")[sites.indexOf(result.chosenSite)].classList.add("active");
-		}
+		else 
+			document.getElementsByClassName("websiteStock")[0].classList.add("active");
 	});
 });
